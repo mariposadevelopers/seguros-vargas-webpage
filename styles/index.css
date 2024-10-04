@@ -143,12 +143,93 @@
 }
 
 .feature i{
-    font-size: 400%;
+    font-size: 325%;
 }
 .feature h5{
  
     margin-left: 5%;
     font-family: 'ClashDisplay-Regular';
-    font-size: 170%;
+    font-size: 150%;
 }
+
+/*
+    Value message
+
+*/
+.value-messages{
+    padding: 5%;
+    margin-top: 20%;
+}
+.value-msg-1 .msg-txt h5,
+.value-msg-2 .msg-txt h5{
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 150%;
+    color: #0345AC;
+}
+.msg-txt ul{
+    font-family: 'ClashDisplay-Regular'; 
+    font-size: 125%;
+}
+
+.value-msg-2{
+    margin-top: 20%;
+}
+
+.value-msg-2 .msg-txt p{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 125%;   
+    text-align: left;
+}
+
+
+/*
+
+    Contact
+*/
+
+.contact-form-msg h5{
+    font-size: 150%;
+    font-family: 'ClashDisplay-Semibold';
+    color: #0345AC;
+
+}
+
+.contact-form-msg{
+    padding: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.contact-form{
+    text-align: center;
+}
+.contact-form-disclaimer{
+    text-align: left;
+    font-family: 'ClashDisplay-Light';
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cta-send-form{
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-bottom: 10%;
+    font-family: 'ClashDisplay-Medium';
+}
+.form-control{
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: #17406D;
+    color: white;
+    font-family: 'ClashDisplay-Medium';
+}
+
+
+
+.social-media-elements{
+    display: flex;
+}
+
 
