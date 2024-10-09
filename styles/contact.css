@@ -1,0 +1,180 @@
+/*
+
+    Adding external fonts
+
+*/
+
+/* Clash Display */
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Extralight.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Light.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Medium.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Semibold.otf);
+}
+
+/* Remove margins and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.navbar{
+    background-color: #17406D;
+}
+.navbar-toggler
+{
+    border: none;
+}
+
+.navbar-toggler-icon{
+
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+.nav-link{
+    color: white;
+    font-family: 'ClashDisplay-Light';
+    display: flex;
+    justify-content: right;
+    font-size: 150%;
+}
+
+
+/*
+
+    Contact
+*/
+
+.container{
+    width: 80%;
+}
+.contact h2{
+    font-family: 'ClashDisplay-Semibold';
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+    color: #0345AC;
+}
+.contact i{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.col{
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.col p{
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+}
+
+.social-media h3{
+    font-family: 'ClashDisplay-Semibold';
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #0345AC;
+}
+.social-button {
+    font-family: 'ClashDisplay-semibold';
+    background-color: #006DE4;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+.social-button i{
+    
+    margin-right: 10px;
+}
+/* Footer styling */
+
+footer{
+    background-color: #17406D;
+    color: white;
+    font-family: 'ClashDisplay-Regular';
+}
+.footer-title li{
+
+    font-size: 125%;
+    font-family: 'ClashDisplay-Medium';
+    margin-top: 5% ;
+}
+.social-media-elements{
+    display: flex;
+}
+
+.footer-pages{
+
+    margin-top: 10%;
+}
+
+.navbar-collapse{
+
+    height: 100vh;
+    transition: none !important;
+}
+.social-media-elements i{
+
+    font-size: 160%;
+    padding: 5%;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-collapse{
+
+        height: 20vh;
+    }
+
+    .social-button{
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 2560px) {
+    
+    .navbar-brand img{
+        width: 13vw;
+    }
+
+    .nav-link{
+        font-size: 300%;
+    }
+
+    .nav-item{
+        padding: 5%;
+    }
+
+}
