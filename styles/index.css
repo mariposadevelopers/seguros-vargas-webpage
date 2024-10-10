@@ -58,6 +58,10 @@
     font-size: 150%;
 }
 
+.navbar-brand img{
+    width: 20vw;
+}
+
 .banner-information{
     background-color: #17406D;
     color: white;
