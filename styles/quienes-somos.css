@@ -1,0 +1,196 @@
+/*
+
+    Adding external fonts
+
+*/
+
+/* Clash Display */
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Extralight.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Light.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Medium.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url(../resources/fonts/clash-display/ClashDisplay-Semibold.otf);
+}
+
+/* Remove margins and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.navbar{
+    background-color: #17406D;
+}
+.navbar-toggler
+{
+    border: none;
+}
+
+.navbar-toggler-icon{
+
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+.nav-link{
+    color: white;
+    font-family: 'ClashDisplay-Light';
+    display: flex;
+    justify-content: right;
+    font-size: 150%;
+}
+.navbar-brand{
+    width: 60%;
+}
+.navbar-brand img{
+    width: 80%;
+}
+
+.navbar-collapse{
+    height: 100vh;
+    transition: none !important;
+}
+
+.top-message{
+    margin-top: 5%;
+}
+
+.top-message-txt {
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 150%;
+    color: #0345AC;
+    
+}   
+
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+
+.top-msg-container{
+    display: flex;
+    justify-content: center;
+}
+.top-msg-container img{
+    width: 80%;
+}
+
+
+.who-are-we-txt{
+    margin-top: 10%;
+}
+.who-are-we-txt h5{
+    font-size: 150%;
+    font-family: 'ClashDisplay-Semibold';
+    color: #0345AC;
+  
+}
+
+footer{
+    margin-top: 5vh;
+    background-color: #17406D;
+    color: white;
+    font-family: 'ClashDisplay-Regular';
+}
+.footer-title li{
+
+    font-size: 125%;
+    font-family: 'ClashDisplay-Medium';
+    margin-top: 5% ;
+}
+.social-media-elements{
+    display: flex;
+
+
+}
+
+.social-media-elements i{
+
+    font-size: 160%;
+    padding: 5%;
+}
+
+.footer-pages{
+
+    margin-top: 10%;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-brand{
+        width: 30%;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
+
+
+
+    .who-are-we{
+        display: flex;
+        justify-content: center;
+    }
+    .square-container div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .square-container img{
+        width: 50%;
+    }
+
+    .who-are-we{
+        margin-top: 5%;
+    }
+
+    .who-are-we-element-2{
+        margin-top: 5%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .navbar-brand{
+        width: 15%;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
+
+    .navbar{
+        height: 20vh;
+    }
+    .top-message-txt{
+
+        font-size: 300%;
+  
+    }
+    .who-are-we-txt h5{
+        font-size: 250%;
+    }
+    .who-are-we-txt p{
+        font-size: 150%;
+    }
+}
