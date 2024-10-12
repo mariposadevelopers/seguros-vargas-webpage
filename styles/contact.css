@@ -245,6 +245,12 @@ footer{
 
         height: 20vh;
     }
+    .navbar-brand{
+        width: 15%;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
 
     .social-button {
         font-family: 'ClashDisplay-semibold';
