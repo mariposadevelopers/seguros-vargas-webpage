@@ -306,7 +306,7 @@ footer{
     .banner-title,
     .banner-subtitle,
     .cta-section{
-        margin-left: 5%;
+        padding-left: 5%;
     }
     .value-msg-2{
         margin-top: 10%;
