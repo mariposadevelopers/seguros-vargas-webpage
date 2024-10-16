@@ -259,6 +259,14 @@ footer{
     padding: 5%;
 }
 
+.social-media-elements a{
+    color: white;
+    text-decoration: none;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 1.5rem;
+    padding: 5%;
+}
+
 @media (min-width: 768px) {
     .value-messages{
         margin-top: 5% ;
